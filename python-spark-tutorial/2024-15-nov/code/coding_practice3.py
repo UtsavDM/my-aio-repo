@@ -17,9 +17,8 @@ for i in rdd1.take(1):
     for j in i:
         if j=='|':
             n+=1
-        if n%5==0:
-            
-    print(i)
+        if n%5==0:        
+            print(i)
     print(".")
 
 # spark.read.format().options(delimiter="|")
